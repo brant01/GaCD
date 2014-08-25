@@ -9,16 +9,16 @@ The zip file was saved on, and unzipped on a MacBook Air running Mac OSX 10.9.4 
 
 Code Book:
 
-#Dataframes used in the script for initial loading were named in accordance to their file names, and are read in using read.table:
+# Dataframes used in the script for initial loading were named in accordance to their file names, and are read in using read.table:
 
-  ##features: data frame created from the file UCI HAR Dataset/features.txt
-  ##activity.labels data frame created from the file UCI HAR Dataset/activity_labels.txt
-  ##subject.test data frame created from the file UCI HAR Dataset/test/subject_test.txt
-  ##subject.train data frame created from the file UCI HAR Dataset/train/subject_train.txt
-  ##X.test data frame created from the file UCI HAR Dataset/test/X_test.txt
-  ##y.test data frame created from the file UCI HAR Dataset/test/y_test.txt
-  ##X.train data frame created from the file UCI HAR Dataset/train/X_train.txt
-  ##y.train data frame created from the file UCI HAR Dataset/train/y_train.txt
+## features: data frame created from the file UCI HAR Dataset/features.txt
+## activity.labels data frame created from the file UCI HAR Dataset/activity_labels.txt
+## subject.test data frame created from the file UCI HAR Dataset/test/subject_test.txt
+## subject.train data frame created from the file UCI HAR Dataset/train/subject_train.txt
+## X.test data frame created from the file UCI HAR Dataset/test/X_test.txt
+## y.test data frame created from the file UCI HAR Dataset/test/y_test.txt
+## X.train data frame created from the file UCI HAR Dataset/train/X_train.txt
+## y.train data frame created from the file UCI HAR Dataset/train/y_train.txt
   
   
 A master dataframe was created by combining the dataframes that were loaded as above. 
