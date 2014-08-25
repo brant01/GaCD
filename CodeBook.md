@@ -30,6 +30,7 @@ Next, the three .all dataframes were combined column-wise to create a master dat
 The rows of interest from the master datafram 'data' were the 'Subject', 'Activity', and those representing the means and standard deviations of the measured variables.  The dataframe data.mean.sd is a dataframe that is a subset of the master dataframe 'data' that includes only these columns.  It includes all rows that were in the original dataframe.
 
 Headers for this dataframe were renamed as below:
+
 1. 'Subject' - (Integer) from 'Subject': The number of the subject performing the test 
 2. 'Activity' - (Factor) from 'Activity': The number of the activity being performed (described below) 
 3. 'Mean Body Accel X' -(Numeric) from tBodyAcc-mean()-X
